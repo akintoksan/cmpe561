@@ -1,7 +1,9 @@
 # CMPE561 Project 1 - Author Recognition
 
 ##dataset_builder.py##
-###You can use dataset_builder.py to create a new training and test set using a source folder.###
+You can use dataset_builder.py to create a new training and test set using a source folder.
+
+
 This will create a training set in the directory *training_dir* and test set in the directory *test_dir* from the source dataset in the directory *source_dir*.
 You can run the program as below: 
 
@@ -11,8 +13,9 @@ You can run the program as below:
 
 
 ##project1.py##
+This program classifies given documents in a test set to an author in the training set.
 
-### This program classifies given documents in a test set to an author in the training set ###
+
 This will traverse all the training set in the *training_dir* to create a lexicon and decides which document in *test_dir* belongs to which author.
 You can run the program as below: 
 
