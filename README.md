@@ -2,7 +2,7 @@
 
 ##dataset_builder.py##
 ###You can use dataset_builder.py to create a new training and test set using a source folder.###
-This will create a training set in the directory *training_dir* and test set in the directory *test_dir* from the source dataset in the directory *source_dir*
+This will create a training set in the directory *training_dir* and test set in the directory *test_dir* from the source dataset in the directory *source_dir*.
 You can run the program as below: 
 
 `python dataset_builder.py source_dir training_dir test_dir`
