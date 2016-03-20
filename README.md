@@ -1,4 +1,4 @@
-# cmpe561_project1
+# CMPE561 Project 1 - Author Recognition
 
 ##dataset_builder.py##
 ###You can use dataset_builder.py to create a new training and test set using a source folder.###
