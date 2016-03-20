@@ -200,7 +200,18 @@ def testing(test_folder):
 				prob_df2 = tmp_base2*exp(tmp_pow2)
 				
 				# weighted overall probability for a document given class
+
+				#BoW + 2 Features
 				prob_doc_given_class[authors.index(author)] = 0.8*(prob_doc_given_class[authors.index(author)] + float(log(prob_author[authors.index(author)]))) + 0.1*(float(log(prob_df2))) + 0.1*(float(log(prob_df)))
+
+				#BoW Only
+				#prob_doc_given_class[authors.index(author)] = (prob_doc_given_class[authors.index(author)] + float(log(prob_author[authors.index(author)])))
+
+				# BoW + Average Word Length
+				#prob_doc_given_class[authors.index(author)] = 0.8*(prob_doc_given_class[authors.index(author)] + float(log(prob_author[authors.index(author)]))) + 0.2*(float(log(prob_df)))
+
+				# BoW + Average Number of Word
+				#prob_doc_given_class[authors.index(author)] = 0.8*(prob_doc_given_class[authors.index(author)] + float(log(prob_author[authors.index(author)]))) + 0.2*(float(log(prob_df2)))
 
 				f.close()
 
