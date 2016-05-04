@@ -1,3 +1,3 @@
-Adv Punc Noun Adj Zero Verb Prop Det PersP Postp Conj NPastPart APastPart NInf Ques DemonsP Card APresPart QuesP AFutPart Pron ReflexP NFutPart Interj Dup Ord Distrib Real Num Range 
+Adv Punc Noun Adj Verb Det Pron Postp Conj Ques Num Interj Dup Zero 
 Noun
-4
+3

@@ -44,5 +44,11 @@ Example:
 
 ps. When we run the train_hmm_tagger.py file, I keep the tagset type (cpostag or postag) in the file tag_order.txt. So, hmm_tagger.py and evaluate_hmm_tagger.py takes the tagset type from this file.
 
+
+ps2. The confusion matrix that I put on the report is not the percentage but a value between 0 and 1. So, a value of 0.18 means 18% in the matrix. I updated the code to give the results in terms of percentage. But I had already submitted the report so I couldn't change the matrix in the report.
+
+
+
+
 _If you have any problems, please contact me from the e-mail address: **akintoksan@gmail.com**_
 

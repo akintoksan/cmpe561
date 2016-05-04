@@ -122,7 +122,7 @@ for key in confusion_matrix:
  		if key == tags_str[i]:
  			print("- "),
  		else:
- 			print(str("%.2f" % confusion_matrix[key][i]) + " "),
+ 			print(str("%.2f" % (100*confusion_matrix[key][i])) + " "),
  	print
 
 		

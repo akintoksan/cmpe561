@@ -44,8 +44,8 @@ bakarak|Verb
 bir|Det
 sonraki|Postp
 hareketin|Noun
-ne|QuesP
-olacağına|Adv
+ne|Pron
+olacağına|Verb
 karar_verir|Verb
 .|Punc
 
@@ -62,14 +62,14 @@ bilgisi|Noun
 tip|Noun
 bilgisi|Noun
 ,|Punc
-o|PersP
-ana|Adv
+o|Pron
+ana|Noun
 kadar|Postp
 yapılan|Verb
 işlemler|Noun
 sonucunda|Noun
-kendisine|ReflexP
-bağlanmış|Adv
+kendisine|Pron
+bağlanmış|Verb
 olan|Verb
 bağımlı|Adj
 elemanların|Noun
@@ -82,7 +82,7 @@ olabilir|Verb
 
 Model|Noun
 ilk|Adj
-olarak|Verb
+olarak|Noun
 ,|Punc
 sözcükten|Noun
 ayrı|Adj
@@ -100,7 +100,7 @@ bulmaya|Verb
 .|Punc
 
 Birden|Det
-fazla|Adj
+fazla|Noun
 çekim|Noun
 grubuna|Noun
 sahip_olan|Verb
@@ -113,7 +113,7 @@ gruplarının|Noun
 aynı|Adj
 sözcük|Noun
 içerisinde|Noun
-sağ|Noun
+sağ|Adj
 taraflarında|Noun
 yer_alan|Verb
 ilk|Adj
@@ -124,8 +124,8 @@ varsayılır|Noun
 .|Punc
 
 Kurulan|Verb
-bu|DemonsP
-tip|Adv
+bu|Pron
+tip|Noun
 bağlılıklar|Noun
 başarım|Noun
 ölçümünde|Noun
@@ -158,14 +158,14 @@ konusu|Noun
 yasa|Noun
 tasarısı|Noun
 girişimini|Noun
-kınıyor|NInf
-ve|Adv
+kınıyor|Verb
+ve|Conj
 reddediyoruz|Verb
 .|Punc
 
 Ama|Conj
-ben|PersP
-bütün|Adv
+ben|Pron
+bütün|Adj
 olaylara|Noun
 pozitif|Adj
 bakıyorum|Verb
@@ -212,7 +212,7 @@ küreselleşen|Adj
 dünyada|Noun
 rekabetin|Noun
 de|Verb
-küreselleştiğini|Verb
+küreselleştiğini|Noun
 anlattı|Verb
 .|Punc
 
@@ -230,8 +230,8 @@ gündeme|Noun
 geldiği|Verb
 andan|Noun
 itibaren|Postp
-Arjantin|Prop
-makamları|Adv
+Arjantin|Noun
+makamları|Noun
 nezdinde|Noun
 gerçekleştirdiğimiz|Verb
 müteaddit|Noun
@@ -241,8 +241,8 @@ yasa|Noun
 tasarısının|Noun
 tarihi|Adj
 gerçeklerle|Noun
-bağdaşmadığı|NPastPart
-,|Adv
+bağdaşmadığı|Verb
+,|Punc
 ikili|Noun
 ilişkilerimize|Noun
 zarar_vereceği|Noun
@@ -251,20 +251,20 @@ vurgulanmıştı|Verb
 
 İşletmenin|Noun
 pazarı|Noun
-ne|QuesP
-kadar|Adv
+ne|Pron
+kadar|Postp
 büyükse|Adj
 gücünün|Noun
 de|Verb
-o|PersP
-kadar|Adv
+o|Pron
+kadar|Postp
 büyük|Adj
-olacağını|Verb
+olacağını|Noun
 anlattı|Verb
 .|Punc
 
-Şunu|DemonsP
-bilmemiz|Adv
+Şunu|Pron
+bilmemiz|Verb
 gerekiyor|Verb
 ki|Conj
 küreselleşme|Adj
@@ -279,8 +279,8 @@ değildir|Verb
 
 Zaman|Noun
 zaman|Noun
-küreselleşme|NInf
-etrafında|Adv
+küreselleşme|Verb
+etrafında|Noun
 tartışmalar|Verb
 yapılır|Verb
 .|Punc
@@ -299,17 +299,17 @@ söylüyor|Verb
 Kalabalıktaki|Noun
 insanlar|Noun
 da|Conj
-onu|PersP
-dinlermiş|Adv
+onu|Pron
+dinlermiş|Verb
 .|Punc
 
-Bizim|PersP
+Bizim|Pron
 Keloğlan|Noun
 da|Conj
 kalabalığa|Noun
 sokularak|Verb
-bu|DemonsP
-adamın|Adv
+bu|Pron
+adamın|Noun
 dediklerini|Verb
 dinlemiş|Verb
 .|Punc
@@ -337,22 +337,22 @@ eşeğin|Noun
 gönlünü|Noun
 almak|Verb
 için|Postp
-çeşitli|Adj
+çeşitli|Noun
 komiklikler|Noun
 yapar|Verb
 ,|Punc
-ona|PersP
-şeker|Adv
+ona|Pron
+şeker|Noun
 verir|Verb
 ,|Punc
 sağrısını|Noun
 sıvazlarmış|Verb
 .|Punc
 
-İki|Card
-gözü|Adv
-iki|Card
-çeşme|Adv
+İki|Num
+gözü|Noun
+iki|Num
+çeşme|Noun
 ,|Punc
 öksürüp|Verb
 aksırarak|Noun
@@ -373,8 +373,8 @@ dünyaya|Noun
 açıktır|Adj
 .|Punc
 
-İki|Card
-bitkin|Adv
+İki|Num
+bitkin|Adj
 yolcu|Noun
 konuşa|Verb
 konuşa|Verb
@@ -415,8 +415,8 @@ Aman|Interj
 padişahım|Noun
 ,|Punc
 bana|Noun
-üç|Card
-gün|Adv
+üç|Num
+gün|Noun
 izin_ver|Verb
 ,|Punc
 diye|Postp
@@ -427,8 +427,8 @@ Bir|Det
 gün|Noun
 düşünmüş|Verb
 ,|Punc
-iki|Card
-gün|Adv
+iki|Num
+gün|Noun
 düşünmüş|Verb
 ,|Punc
 işin|Noun
@@ -454,9 +454,9 @@ uçacak|Verb
 Aman|Interj
 kızım|Noun
 ,|Punc
-bana|PersP
-söyle|Adv
-şunları|Det
+bana|Pron
+söyle|Verb
+şunları|Pron
 .|Punc
 
 Anlatırım|Verb
@@ -464,13 +464,13 @@ ama|Conj
 her|Det
 biri|Pron
 için|Postp
-yüz|Card
-altın|Adv
+yüz|Noun
+altın|Adj
 isterim|Verb
 .|Punc
 
-O|PersP
-gün|Adv
+O|Pron
+gün|Noun
 her|Det
 nasılsa|Adv
 domuzun|Noun
@@ -599,8 +599,8 @@ olmuş|Verb
 
 Bu|Det
 kız|Noun
-o|PersP
-kadar|Adv
+o|Pron
+kadar|Postp
 tembelmiş|Noun
 ki|Conj
 yerinden|Noun
@@ -610,8 +610,8 @@ kalkmaya|Verb
 
 Anası|Noun
 babası|Noun
-ona|PersP
-bir|Adv
+ona|Pron
+bir|Det
 gelberi|Noun
 yaptırmış|Verb
 .|Punc
@@ -640,15 +640,15 @@ evlendirmiş|Verb
 .|Punc
 
 Bildirilen|Noun
-üç|Card
-adayla|Adv
-birlikte|Adv
+üç|Num
+adayla|Noun
+birlikte|Postp
 artık|Adv
-aralarından|Verb
+aralarından|Noun
 birini|Pron
 seçmek|Verb
-bize|PersP
-bırakılmıştı|Adv
+bize|Pron
+bırakılmıştı|Verb
 .|Punc
 
 Bir|Det
@@ -695,8 +695,8 @@ kültür|Noun
 kesimine|Noun
 ulaşmayı|Verb
 amaçladığından|Verb
-bu|DemonsP
-makalelerde|Adv
+bu|Pron
+makalelerde|Noun
 daha|Adv
 bilimsel|Adj
 bir|Det
@@ -821,8 +821,8 @@ olan|Verb
 kurumun|Noun
 uzmanları|Noun
 da|Conj
-bizim|PersP
-seçimimiz|Adv
+bizim|Pron
+seçimimiz|Noun
 için|Postp
 katkıda_bulundu|Verb
 .|Punc
@@ -941,8 +941,8 @@ Merkez_Bankası|Noun
 borçlanma|Noun
 yerine|Noun
 elindeki|Noun
-Hazine|Prop
-tahvillerini|Adv
+Hazine|Noun
+tahvillerini|Noun
 piyasaya|Noun
 satabilseydi|Verb
 ,|Punc
@@ -976,7 +976,7 @@ fiyat|Noun
 artışları|Verb
 ve|Conj
 ekonomik|Adj
-büyüme|Verb
+büyüme|Noun
 sonucunda|Noun
 Merkez_Bankası'nın|Noun
 borçlanma|Noun
@@ -996,8 +996,8 @@ borçlanabilirdi|Noun
 yılı|Noun
 sonlarında|Adj
 ve|Conj
-2005|Card
-yılı|Adv
+2005|Num
+yılı|Noun
 başlarında|Noun
 böyle|Adv
 bir|Det
@@ -1098,7 +1098,7 @@ piyasa|Noun
 işlemleri|Noun
 yoluyla|Noun
 borçlanmaları|Noun
-sağ|Noun
+sağ|Adj
 eksende|Noun
 gösterilmektedir|Verb
 .|Punc
@@ -1119,8 +1119,8 @@ dönemlerde|Noun
 paralellik|Adj
 arz_ederken|Noun
 ,|Punc
-2005|Card
-yılının|Adv
+2005|Num
+yılının|Noun
 eylül|Noun
 ayından|Noun
 sonra|Postp
@@ -1164,8 +1164,8 @@ devam_etmesi|Verb
 ,|Punc
 döviz|Noun
 kurlarının|Verb
-nerede|QuesP
-olmasını|Adv
+nerede|Pron
+olmasını|Verb
 istemenize|Verb
 bağlı_olarak|Verb
 ,|Punc
@@ -1242,7 +1242,7 @@ konusu|Noun
 değildir|Verb
 .|Punc
 
-Hazine'ye|Prop
+Hazine'ye|Noun
 2001|Noun
 yılında|Noun
 verilen|Verb
@@ -1312,8 +1312,8 @@ zorunluluktan|Adj
 yılında|Noun
 uzun|Adj
 vadeli|Noun
-Hazine|Prop
-tahvilleri|Adv
+Hazine|Noun
+tahvilleri|Noun
 karşılığında|Noun
 bir|Det
 kereye|Noun
@@ -1326,21 +1326,21 @@ borç_verdi|Noun
 
 Doların|Noun
 hızla|Noun
-değer|Verb
+değer|Noun
 yitirmesinin|Verb
 kimseye|Noun
 faydası|Noun
-yok|Verb
+yok|Adj
 .|Punc
 
 Aynı|Adj
 kalmayan|Verb
 şeyler|Noun
-bizim|PersP
-gibi|Adv
+bizim|Pron
+gibi|Postp
 ekonomileri|Noun
 olumsuz|Adj
-etkileyebilecektir|Verb
+etkileyebilecektir|Noun
 .|Punc
 
 Son|Adj
@@ -1361,8 +1361,8 @@ enflasyon|Noun
 tehdidinin|Noun
 azaldığı|Verb
 beklentisiyle|Noun
-Amerika'da|Prop
-faiz|Adv
+Amerika'da|Noun
+faiz|Noun
 artışlarının|Verb
 sonuna|Adj
 gelindiği|Verb
@@ -1372,15 +1372,15 @@ düşünülüyor|Verb
 Buna|Det
 karşılık|Noun
 ,|Punc
-Avrupa|Prop
-ekonomileri|Adv
+Avrupa|Noun
+ekonomileri|Noun
 canlanma|Noun
 sinyalleri|Noun
 veriyor|Verb
 .|Punc
 
-Avrupa'da|Prop
-faiz|Adv
+Avrupa'da|Noun
+faiz|Noun
 artırımlarının|Noun
 devam_edeceği|Verb
 bekleniyor|Verb
@@ -1389,17 +1389,17 @@ bekleniyor|Verb
 Faiz|Noun
 paritesinin|Noun
 yeniden|Adv
-Avrupa|Prop
-yönünde|Adv
+Avrupa|Noun
+yönünde|Noun
 değişeceği|Verb
 beklentisiyle|Noun
 Euro|Noun
 ve|Conj
 diğer|Adj
-Avrupa|Prop
-paraları|Adv
-dolara|Adj
-karşı|Noun
+Avrupa|Noun
+paraları|Noun
+dolara|Noun
+karşı|Postp
 değer|Verb
 kazanıyor|Verb
 .|Punc
@@ -1411,7 +1411,7 @@ beklenenden|Verb
 çok|Adv
 daha|Adv
 sert|Adj
-oluyor|Verb
+oluyor|Noun
 .|Punc
 
 Amerikan|Noun
@@ -1439,13 +1439,13 @@ tutarlar|Verb
 .|Punc
 
 Doların|Noun
-değer|Verb
+değer|Noun
 kaybetmesi|Verb
 ülkelerin|Noun
 döviz|Noun
 rezervlerinin|Noun
 reel|Adj
-olarak|Verb
+olarak|Noun
 değer|Noun
 kaybetmesi|Verb
 anlamına_gelir|Verb
@@ -1455,11 +1455,11 @@ Son|Adj
 günlerde|Noun
 Amerikan|Noun
 doları|Noun
-Avrupa|Prop
-paralarına|Adv
+Avrupa|Noun
+paralarına|Noun
 göre|Postp
 hızla|Noun
-değer|Verb
+değer|Noun
 yitiriyor|Verb
 .|Punc
 
@@ -1475,7 +1475,7 @@ fiyatlandırılır|Noun
 .|Punc
 
 Doların|Noun
-değer|Verb
+değer|Noun
 kaybetmesi|Verb
 herhangi|Adj
 bir|Det
@@ -1516,7 +1516,7 @@ başlarlar|Verb
 
 Hammadde|Noun
 fiyatlamalarının|Noun
-değeri|Verb
+değeri|Noun
 giderek|Verb
 artan|Verb
 bir|Det
@@ -1524,17 +1524,17 @@ başka|Adj
 para|Noun
 cinsinden|Noun
 yapılması|Verb
-bu|DemonsP
-durumu|Adv
+bu|Pron
+durumu|Noun
 değiştirmez|Verb
 .|Punc
 
 Doların|Noun
 hızla|Noun
-değer|Verb
+değer|Noun
 kaybetmesi|Verb
-Amerika'da|Prop
-ithal|Adv
+Amerika'da|Noun
+ithal|Noun
 mallarını|Noun
 pahalılaştıracağından|Noun
 ,|Punc
@@ -1552,11 +1552,11 @@ olabilecektir|Verb
 .|Punc
 
 Doların|Noun
-değer|Verb
+değer|Noun
 kaybetmesi|Verb
 nedeniyle|Noun
-Amerikalı|Prop
-üreticilerin|Adv
+Amerikalı|Noun
+üreticilerin|Verb
 kısa|Adj
 sürede|Noun
 ihracata|Noun
@@ -1585,7 +1585,7 @@ durgunluk|Adj
 tüm|Det
 dünyayı|Noun
 olumsuz|Adj
-etkileyebilecek|Verb
+etkileyebilecek|Noun
 boyutlarda|Noun
 olabilecektir|Verb
 .|Punc
@@ -1631,14 +1631,14 @@ Buna|Det
 karşılık|Noun
 ,|Punc
 Japon|Noun
-Yeni|NPastPart
+Yeni|Verb
 hariç|Noun
 ,|Punc
-Çin|Prop
+Çin|Noun
 başta_olmak|Noun
 üzere|Postp
-Asya|Prop
-ülkelerinin|Adv
+Asya|Noun
+ülkelerinin|Noun
 bir|Det
 çoğu|Adj
 paralarını|Noun
@@ -1650,7 +1650,7 @@ götürmeye|Verb
 .|Punc
 
 Bu|Det
-gelişmelerden|NInf
+gelişmelerden|Noun
 en|Adv
 çok|Adv
 etkilenecek|Verb
@@ -1665,8 +1665,8 @@ endeksli|Noun
 ülkelerdir|Noun
 .|Punc
 
-Türkiye'nin|Prop
-de|Adv
+Türkiye'nin|Noun
+de|Verb
 zımni|Noun
 olarak|Verb
 dolara|Noun
@@ -1690,26 +1690,26 @@ görünmemektedir|Verb
 .|Punc
 
 Doların|Noun
-değeri|Verb
-bu|DemonsP
-paralara|Adv
-karşı|Adj
+değeri|Noun
+bu|Det
+paralara|Noun
+karşı|Postp
 fazla|Adj
-oynamadı|Verb
+oynamadı|Noun
 .|Punc
 
 İhracatımızın|Noun
 önemli|Noun
 bir|Det
 bölümünün|Noun
-Avrupa|Prop
-paraları|Adv
+Avrupa|Noun
+paraları|Noun
 cinsinden|Noun
 olması|Verb
 ve|Conj
 ithalatımızın|Noun
 da|Conj
-önemli|Adj
+önemli|Noun
 bir|Det
 bölümünün|Noun
 Amerikan|Noun
@@ -1719,9 +1719,9 @@ olması|Verb
 nedeniyle|Noun
 ,|Punc
 doların|Noun
-değer|Verb
+değer|Noun
 kaybetmesi|Verb
-bizim|PersP
+bizim|Pron
 işimize_geliyor|Noun
 gibi|Postp
 görünüyor|Verb
@@ -1748,8 +1748,8 @@ düşünülebilir|Verb
 Ama|Conj
 ,|Punc
 konu|Noun
-o|PersP
-denli|Adv
+o|Pron
+denli|Adj
 basit|Adj
 değil|Verb
 .|Punc
@@ -1769,7 +1769,7 @@ Dolayısıyla|Adv
 ,|Punc
 doların|Noun
 hızla|Noun
-değer|Verb
+değer|Noun
 yitirmesiyle|Verb
 diğer|Adj
 her|Det
@@ -1790,7 +1790,7 @@ arası|Noun
 ikili|Noun
 ilişkileri|Noun
 saptayarak|Verb
-o|PersP
+o|Pron
 tümcenin|Noun
 çözümlemesini|Verb
 sağlayan|Verb
@@ -1817,7 +1817,7 @@ hedeflediği|Verb
 gerçek|Noun
 anlam|Noun
 çıkartılabilirse|Verb
-bu|DemonsP
+bu|Pron
 tümce|Noun
 makineler|Noun
 tarafından|Noun
@@ -1854,7 +1854,7 @@ belirlenmesi|Verb
 anlamındadır|Noun
 .|Punc
 
-Çözümleme|Verb
+Çözümleme|Noun
 yöntemlerinden|Noun
 biri|Pron
 de|Verb
@@ -1882,16 +1882,16 @@ Dil|Noun
 alanında|Noun
 çalışanlar|Noun
 ,|Punc
-Türkçe'nin|Prop
-özel|Adv
+Türkçe'nin|Noun
+özel|Adj
 bir|Det
 durumunun|Noun
 olduğunu|Verb
 bilirler|Verb
 .|Punc
 
-Türkçe|Prop
-,|Adv
+Türkçe|Noun
+,|Punc
 bitişken|Noun
 bir|Det
 dildir|Noun
@@ -1920,16 +1920,16 @@ oluşur|Verb
 
 Ek|Noun
 sayısı|Noun
-ortalama|Noun
-3|Adj
+ortalama|Adj
+3|Num
 -|Punc
 5|Noun
 arasıdır|Noun
 .|Punc
 
 Bir|Det
-Türkçe|Prop
-sözcüğün|Adv
+Türkçe|Noun
+sözcüğün|Noun
 kökünün|Noun
 bilinmesi|Verb
 ,|Punc
@@ -1992,7 +1992,7 @@ Işıklar|Noun
 ,|Punc
 fidancığa|Noun
 ormanda|Noun
-beğeniyle|Noun
+beğeniyle|Adj
 seyrettiği|Verb
 yıldızları|Noun
 hatırlattı|Verb
@@ -2019,8 +2019,8 @@ baktı|Verb
 .|Punc
 
 İşte|Adv
-o|PersP
-zaman|Adv
+o|Pron
+zaman|Noun
 sepetlerde|Noun
 ,|Punc
 kovalarda|Noun
@@ -2073,16 +2073,16 @@ kuşu|Noun
 vardı|Verb
 .|Punc
 
-O|PersP
-,|Adv
+O|Pron
+,|Punc
 kentte|Noun
 bulunmuş|Verb
 .|Punc
 
 Bütün|Adj
 bunları|Det
-bana|PersP
-o|Adv
+bana|Pron
+o|Pron
 anlattı|Verb
 .|Punc
 
@@ -2119,8 +2119,8 @@ fiyatlarını|Noun
 istiyorlardı|Verb
 .|Punc
 
-Onları|PersP
-ormandan|Adv
+Onları|Pron
+ormandan|Noun
 getiren|Verb
 adamlar|Noun
 çamları|Noun
@@ -2136,8 +2136,8 @@ ucuzdu|Adj
 .|Punc
 
 Her|Det
-biri|Card
-kentin|Adv
+biri|Noun
+kentin|Noun
 değişik|Adj
 meydanlarına|Noun
 doğru|Postp
@@ -2208,7 +2208,7 @@ yanmıştı|Noun
 Çam|Noun
 fidanını|Noun
 ve|Conj
-onu|PersP
+onu|Pron
 satın_alanları|Noun
 taşıyan|Verb
 araba|Noun
@@ -2297,8 +2297,8 @@ daireye|Noun
 çıkardı|Verb
 .|Punc
 
-Onu|PersP
-,|Adv
+Onu|Pron
+,|Punc
 salonda|Noun
 gösterilen|Verb
 yere|Noun
@@ -2311,8 +2311,8 @@ içine|Noun
 çekti|Verb
 .|Punc
 
-O|PersP
-da|Adv
+O|Pron
+da|Conj
 köyünü|Noun
 ,|Punc
 oradaki|Noun
@@ -2328,9 +2328,9 @@ fidanı|Noun
 süslü|Noun
 eşyalarla|Noun
 dolu|Adj
-olan|Verb
-bu|DemonsP
-salonda|Adv
+olan|Noun
+bu|Det
+salonda|Noun
 doğadan|Noun
 ,|Punc
 topraktan|Noun
@@ -2381,8 +2381,8 @@ varmış|Verb
 
 Bir|Det
 gün|Noun
-iki|Card
-kız|Adv
+iki|Num
+kız|Noun
 kardeşe|Noun
 sarayda|Noun
 verilecek|Verb
@@ -2393,8 +2393,8 @@ davetiye|Noun
 gelmiş|Verb
 .|Punc
 
-İkisi|Card
-de|Adv
+İkisi|Num
+de|Conj
 heyecandan|Noun
 deliye_dönmüşler|Noun
 .|Punc
@@ -2408,9 +2408,9 @@ biliyormuş|Verb
 
 '|Noun
 Bakarsın|Verb
-ikimizden|Card
-birini|Adv
-seçer|Verb
+ikimizden|Num
+birini|Num
+seçer|Noun
 ,|Punc
 belli|Adj
 mi|Ques
@@ -2421,13 +2421,13 @@ diye|Postp
 düşünmüşler|Verb
 .|Punc
 
-İki|Card
-kız|Adv
+İki|Num
+kız|Noun
 kardeş|Noun
 de|Verb
-kendilerini|ReflexP
-mümkün|Adv
-olduğunca|Verb
+kendilerini|Pron
+mümkün|Adj
+olduğunca|Noun
 güzelleştirmek|Adj
 için|Postp
 hemen|Adv
@@ -2452,8 +2452,8 @@ ağlamaya_başlamış|Noun
 .|Punc
 
 "|Punc
-Neyin|QuesP
-var|Adv
+Neyin|Pron
+var|Verb
 ,|Punc
 neden|Noun
 ağlıyorsun|Verb
@@ -2468,8 +2468,8 @@ sesi|Noun
 .|Punc
 
 "|Punc
-Ben|PersP
-de|Adv
+Ben|Pron
+de|Verb
 baloya|Noun
 gitmek|Verb
 istiyordum|Verb
@@ -2512,8 +2512,8 @@ dişleri|Noun
 birbirine|Pron
 çarpa|Verb
 çarpa|Verb
-onu|PersP
-seyrediyordu|Adv
+onu|Pron
+seyrediyordu|Verb
 .|Punc
 
 Bir|Det
@@ -2547,8 +2547,8 @@ bir|Det
 duvar|Noun
 olarak|Verb
 düşünürsek|Verb
-bu|DemonsP
-duvarın|Adv
+bu|Pron
+duvarın|Noun
 tuğlaları|Noun
 da|Conj
 yardımcı|Noun
@@ -2558,8 +2558,8 @@ düşüncelerdir|Noun
 Bir|Det
 yazarın|Noun
 sıkıntılarını|Noun
-ne|QuesP
-bilir|Adv
+ne|Pron
+bilir|Verb
 okuyucu|Verb
 !|Punc
 
@@ -2571,8 +2571,8 @@ kişiler|Noun
 durumlarına|Noun
 karşı_koymaz|Noun
 ,|Punc
-onu|PersP
-değiştirmek|Adv
+onu|Pron
+değiştirmek|Verb
 için|Postp
 savaşmazlar|Noun
 .|Punc
@@ -2592,7 +2592,7 @@ bir|Det
 kadınla|Noun
 kocasının|Noun
 çocukları|Noun
-yokmuş|Verb
+yokmuş|Adj
 ve|Conj
 çocuk|Noun
 sahibi|Noun
@@ -2643,21 +2643,21 @@ de|Verb
 ilk|Adj
 evliliğinden|Noun
 olan|Verb
-iki|Card
-kızıyla|Adv
-birlikte|Adv
+iki|Num
+kızıyla|Noun
+birlikte|Postp
 gelip|Verb
 eve|Noun
 yerleşmiş|Verb
 .|Punc
 
-O|PersP
-anda|Adv
+O|Pron
+anda|Noun
 sanki|Adv
 büyülenmiş|Verb
 ve|Conj
-o|PersP
-marullardan|Adv
+o|Pron
+marullardan|Noun
 başka|Adj
 şey|Noun
 düşünemez|Verb
@@ -2674,15 +2674,15 @@ da|Conj
 ölürüm|Verb
 "|Punc
 demiş|Verb
-kendi|ReflexP
-kendine|Adv
+kendi|Pron
+kendine|Pron
 .|Punc
 
 Yemeden|Verb
 içmeden|Noun
 kesilmiş|Verb
 ,|Punc
-zayıfladıkça|Verb
+zayıfladıkça|Noun
 zayıflamış|Verb
 .|Punc
 
@@ -2719,8 +2719,8 @@ toplamış|Verb
 
 Ancak|Conj
 ,|Punc
-o|PersP
-bahçeye|Adv
+o|Pron
+bahçeye|Noun
 girmek|Verb
 büyük|Adj
 cesaret|Noun
@@ -2744,8 +2744,8 @@ ama|Conj
 bir|Det
 avuç|Noun
 yaprak|Noun
-ona|PersP
-yetmemiş|Adv
+ona|Pron
+yetmemiş|Verb
 .|Punc
 
 Kocası|Noun
@@ -2765,20 +2765,20 @@ cadı|Noun
 pusuya|Noun
 yatmış|Verb
 ,|Punc
-onu|PersP
-bekliyormuş|Adv
+onu|Pron
+bekliyormuş|Verb
 .|Punc
 
 "|Punc
 Bahçeme|Noun
 girip|Verb
-benim|PersP
-marullarımı|Adv
+benim|Pron
+marullarımı|Noun
 çalmaya|Verb
 nasıl|Adv
 cesaret_edersin|Noun
-sen|PersP
-!|Adv
+sen|Pron
+!|Punc
 "|Punc
 diye|Postp
 ciyaklamış|Noun
@@ -2793,8 +2793,8 @@ vereceksin|Verb
 "|Punc
 
 Bu|Det
-iki|Card
-kız|Adv
+iki|Noun
+kız|Noun
 ,|Punc
 yeni|Adj
 kız|Noun
@@ -2805,7 +2805,7 @@ hoşlanmamış|Verb
 
 Kadının|Noun
 kocası|Noun
-kendisini|ReflexP
+kendisini|Pron
 affetmesi|Noun
 için|Postp
 yalvarmış|Verb
@@ -2818,20 +2818,20 @@ marulları|Noun
 nasıl|Adv
 canının_çektiğini|Noun
 ,|Punc
-onlar|PersP
-yüzünden|Adv
+onlar|Pron
+yüzünden|Noun
 nasıl|Adv
 yemeden|Verb
 içmeden|Noun
 kesildiğini|Verb
 bir|Det
-bir|Card
-anlatmış|Adv
+bir|Noun
+anlatmış|Verb
 .|Punc
 
 "|Punc
-O|PersP
-zaman|Adv
+O|Pron
+zaman|Noun
 ,|Punc
 "|Punc
 demiş|Verb
@@ -2845,8 +2845,8 @@ alçaltarak|Verb
 alabilirsin|Verb
 ,|Punc
 canı|Noun
-ne|QuesP
-kadar|Adv
+ne|Pron
+kadar|Postp
 çekiyorsa|Verb
 alabilirsin|Verb
 .|Punc
@@ -2859,8 +2859,8 @@ var|Verb
 bebeğiniz|Noun
 doğar|Verb
 doğmaz|Verb
-onu|PersP
-bana|Adv
+onu|Pron
+bana|Pron
 vereceksiniz|Verb
 .|Punc
 "|Punc
@@ -2884,8 +2884,8 @@ doğmuş|Verb
 
 Daha|Adv
 hemen|Adv
-o|PersP
-gün|Adv
+o|Pron
+gün|Noun
 cadı|Noun
 gelip|Verb
 yeni|Adj
@@ -2902,8 +2902,8 @@ vermiş|Verb
 
 Çünkü|Conj
 annesinin|Noun
-ne|QuesP
-yapıp|Adv
+ne|Pron
+yapıp|Verb
 edip|Verb
 yemek|Verb
 istediği|Verb
@@ -2916,8 +2916,8 @@ Rapunzel'miş|Noun
 .|Punc
 
 Rapunzel|Noun
-oniki|Ord
-yaşına|Adv
+oniki|Num
+yaşına|Noun
 gelince|Verb
 ,|Punc
 dünyalar|Noun
@@ -2928,10 +2928,10 @@ olmuş|Verb
 .|Punc
 
 Odasında|Noun
-ne|QuesP
-var|Adv
-ne|QuesP
-yoksa|Adv
+ne|Pron
+var|Verb
+ne|Pron
+yoksa|Verb
 tavan|Noun
 arasına|Noun
 fırlatıp|Verb
@@ -2955,14 +2955,14 @@ yüksek|Adj
 bir|Det
 kuleye|Noun
 yerleştirmiş|Verb
-onu|PersP
-.|Adv
+onu|Pron
+.|Punc
 
 Bu|Det
 kulenin|Noun
 hiç|Adv
 merdiveni|Noun
-yokmuş|Verb
+yokmuş|Adj
 ,|Punc
 sadece|Adv
 en|Adv
@@ -2974,7 +2974,7 @@ varmış|Verb
 .|Punc
 
 Cadı|Noun
-onu|PersP
+onu|Pron
 ziyarete_geldiğinde|Noun
 ,|Punc
 aşağıdan|Noun
@@ -3002,8 +3002,8 @@ uzatır|Verb
 ,|Punc
 cadı|Noun
 da|Conj
-onun|PersP
-saçlarına|Adv
+onun|Pron
+saçlarına|Verb
 tutuna|Verb
 tutuna|Verb
 yukarı|Noun
@@ -3056,10 +3056,10 @@ bakmış|Verb
 sola|Adj
 bakmış|Verb
 ,|Punc
-ne|QuesP
-merdiven|Adv
+ne|Pron
+merdiven|Noun
 görmüş|Verb
-ne|Conj
+ne|Pron
 de|Verb
 yukarıya|Noun
 çıkılacak|Verb
@@ -3087,8 +3087,8 @@ oraya|Noun
 uğrar_olmuş|Noun
 .|Punc
 
-Ona|PersP
-bir|Adv
+Ona|Pron
+bir|Det
 kardeş|Noun
 gibi|Postp
 davranmak|Verb
@@ -3142,8 +3142,8 @@ biraz|Adv
 korkmuş|Verb
 ,|Punc
 çünkü|Conj
-o|PersP
-güne|Adv
+o|Pron
+güne|Noun
 kadar|Postp
 cadıdan|Noun
 başkası|Adj
@@ -3153,7 +3153,7 @@ ziyaretine|Noun
 
 Fakat|Conj
 prens|Noun
-onu|PersP
+onu|Pron
 şarkı_söylerken|Noun
 dinlediğini|Verb
 ,|Punc
@@ -3185,7 +3185,7 @@ yüksek|Adj
 kuleden|Noun
 kaçmasına|Verb
 imkan|Noun
-yokmuş|Verb
+yokmuş|Adj
 .|Punc
 
 Fakat|Conj
@@ -3200,8 +3200,8 @@ aksine|Adv
 bayağı|Adj
 çirkinmiş|Noun
 her|Det
-ikisi|Card
-de|Adv
+ikisi|Noun
+de|Verb
 !|Punc
 
 Akıllı|Noun
@@ -3214,7 +3214,7 @@ varmış|Verb
 
 Prens|Noun
 her|Det
-gelişinde|Verb
+gelişinde|Noun
 yanında|Noun
 bir|Det
 ipek|Noun
@@ -3224,8 +3224,8 @@ getirirse|Verb
 Rapunzel|Noun
 '|Noun
 de|Verb
-bunları|DemonsP
-birbirine|Adv
+bunları|Pron
+birbirine|Pron
 ekleyerek|Verb
 bir|Det
 merdiven|Noun
@@ -3248,8 +3248,8 @@ bittikten|Verb
 sonra|Postp
 bile|Adv
 kızın|Noun
-onlarla|PersP
-oturmasına|Adv
+onlarla|Pron
+oturmasına|Verb
 izin|Noun
 verilmiyormuş|Verb
 .|Punc
@@ -3267,9 +3267,9 @@ Anne|Noun
 ,|Punc
 Prens|Noun
 neden|Noun
-senden|PersP
+senden|Pron
 daha|Adv
-hızlı|Adj
+hızlı|Noun
 tırmanıyor|Verb
 saçlarıma|Noun
 ?|Punc
@@ -3281,17 +3281,17 @@ ortaya_çıkmış|Verb
 .|Punc
 
 "|Punc
-Seni|PersP
+Seni|Pron
 rezil|Noun
 kız|Noun
 !|Punc
-Beni|PersP
+Beni|Pron
 nasıl|Adv
 da|Conj
-aldattın|Verb
+aldattın|Noun
 !|Punc
-Ben|PersP
-seni|Adv
+Ben|Pron
+seni|Pron
 dünyanın|Noun
 kötülüklerinden|Adj
 korumaya|Noun
@@ -3313,7 +3313,7 @@ kesmiş|Verb
 ve|Conj
 sonra|Adv
 da|Conj
-onu|PersP
+onu|Pron
 çok|Adv
 uzaklara|Adj
 bir|Det
@@ -3321,8 +3321,8 @@ bir|Det
 göndermiş|Verb
 .|Punc
 
-O|PersP
-gece|Adv
+O|Pron
+gece|Noun
 cadı|Noun
 kalede|Noun
 kalıp|Verb
@@ -3357,8 +3357,8 @@ aşağıya|Noun
 
 Prens|Noun
 başına|Noun
-neler|QuesP
-geleceğini|Adv
+neler|Pron
+geleceğini|Verb
 bilmeden|Verb
 yukarıya|Noun
 tırmanmış|Verb
@@ -3366,8 +3366,8 @@ tırmanmış|Verb
 
 Prens|Noun
 kederinden|Noun
-kendini|ReflexP
-pencereden|Adv
+kendini|Pron
+pencereden|Noun
 atmış|Verb
 .|Punc
 
@@ -3431,8 +3431,8 @@ yüzden|Noun
 üvey|Adj
 kız|Noun
 kardeşleri|Noun
-ona|PersP
-"|Adv
+ona|Pron
+"|Punc
 Külkedisi|Noun
 "|Punc
 adını|Noun
@@ -3442,8 +3442,8 @@ takmışlar|Verb
 Bu|Det
 makalede|Noun
 ,|Punc
-Türkçe|Prop
-cümlelerin|Adv
+Türkçe|Noun
+cümlelerin|Noun
 kural|Noun
 tabanlı|Noun
 bağlılık|Noun
@@ -3469,7 +3469,7 @@ verilmiştir|Verb
 .|Punc
 
 Sonuçlar|Noun
-Türkçe'nin|Prop
+Türkçe'nin|Noun
 Bağlılık|Noun
 Analizi|Noun
 konusunda|Noun
@@ -3484,15 +3484,15 @@ Bitişken|Noun
 bir|Det
 dil|Noun
 olan|Verb
-Türkçe'de|Prop
-,|Adv
+Türkçe'de|Noun
+,|Punc
 sözcüklerin|Noun
 sonlarına|Adj
 ardarda|Adv
 ekler|Verb
 konularak|Verb
-yüzlerce|Card
-farklı|Adv
+yüzlerce|Num
+farklı|Noun
 sözcük|Noun
 oluşturulabilir|Verb
 .|Punc
@@ -3508,23 +3508,23 @@ kurulmuştur|Verb
 Ayrıştırıcı|Noun
 her|Det
 adımında|Noun
-üç|Card
-farklı|Adv
+üç|Num
+farklı|Noun
 hareketten|Noun
 birini|Det
 gerçekleştirir|Noun
 .|Punc
 
-Türkçe'de|Prop
-bir|Adv
+Türkçe'de|Noun
+bir|Det
 sözcüğe|Noun
 ait|Postp
 biçimbirimsel|Noun
 özellikler|Noun
 büyük|Adj
 çoğunlukla|Noun
-o|PersP
-sözcüğün|Adv
+o|Pron
+sözcüğün|Noun
 içerisinde|Noun
 bir|Det
 çekim|Noun
@@ -3547,11 +3547,11 @@ sonra|Postp
 ve|Conj
 sözcükten|Noun
 ayrı|Adj
-olarak|Verb
+olarak|Noun
 yazılırlar|Verb
 ve|Conj
-kendilerinden|ReflexP
-önce|Adv
+kendilerinden|Pron
+önce|Postp
 gelen|Verb
 sözcüğe|Noun
 bağlanırlar|Verb
@@ -3619,9 +3619,9 @@ işlem|Noun
 sırasında|Noun
 kullanılan|Verb
 özelliklerin|Noun
-neler|QuesP
-olduğu|Adv
-ilerde|Adj
+neler|Pron
+olduğu|Verb
+ilerde|Noun
 anlatılmaktadır|Verb
 .|Punc
 
@@ -3646,8 +3646,8 @@ bulmaya|Verb
 
 Bozşahin|Noun
 çalışmasında|Verb
-Türkçe'nin|Prop
-bu|Adv
+Türkçe'nin|Noun
+bu|Det
 yapısını|Noun
 detaylı|Noun
 olarak|Verb
@@ -3675,9 +3675,9 @@ kadar|Postp
 istatistiksel|Noun
 ayrıştırma|Noun
 alanında|Noun
-birinci|Ord
-bölümde|Adv
-çeşitli|Adj
+birinci|Num
+bölümde|Noun
+çeşitli|Noun
 dinamik|Noun
 programlama|Noun
 algoritmaları|Noun
@@ -3688,8 +3688,8 @@ Bu|Det
 algoritmalar|Noun
 ayrıştırma|Noun
 modelinin|Noun
-kendilerine|ReflexP
-verdikleri|Adv
+kendilerine|Pron
+verdikleri|Verb
 ikili|Noun
 bağlılık|Noun
 olasılıklarını|Adj
@@ -3711,7 +3711,7 @@ Bu|Det
 yöntemden|Noun
 tamamen|Adv
 farklı|Adj
-olan|Verb
+olan|Noun
 bir|Det
 başka|Adj
 yaklaşım|Noun
@@ -3723,8 +3723,8 @@ kullanmaktır|Verb
 .|Punc
 
 Birçok|Det
-çalışmada|Verb
-bu|DemonsP
+çalışmada|Noun
+bu|Det
 algoritmaların|Noun
 yüksek|Adj
 başarımı|Noun
@@ -3741,8 +3741,8 @@ adımında|Noun
 bir|Det
 sonraki|Postp
 hareketin|Noun
-ne|QuesP
-olacağına|Adv
+ne|Pron
+olacağına|Verb
 ayrıştırma|Noun
 modeli|Noun
 yardımıyla|Noun
@@ -3786,8 +3786,8 @@ cümleyi|Noun
 soldan_sağa|Noun
 doğru|Postp
 ,|Punc
-iki|Card
-farklı|Adv
+iki|Num
+farklı|Noun
 veri|Noun
 yapısından|Noun
 faydalanarak|Noun
@@ -3805,8 +3805,8 @@ oluşturmaya|Verb
 çalışır|Verb
 .|Punc
 
-Türkçe'de|Prop
-sözcükler|Adv
+Türkçe'de|Noun
+sözcükler|Noun
 sonlarına|Adj
 eklenen|Verb
 eklerle|Noun
@@ -3857,7 +3857,7 @@ Bu|Det
 durum|Noun
 sıfatların|Noun
 genel|Adj
-olarak|Verb
+olarak|Noun
 isimlere|Noun
 bağlanması|Verb
 kuralından|Noun
@@ -3884,8 +3884,8 @@ başarımı|Noun
 düşürmektedir|Verb
 .|Punc
 
-Türkçe'nin|Prop
-bu|Adv
+Türkçe'nin|Noun
+bu|Det
 yapısı|Noun
 literatürde|Noun
 sözcüklerin|Noun
