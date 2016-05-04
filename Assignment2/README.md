@@ -41,5 +41,8 @@ Example:
 
 `python evaluate_hmm_tagger.py output.txt /Users/akintoksan/Desktop/cmpe_561_pr2/metu_sabanci_cmpe_561/metu_sabanci_cmpe_561/validation/turkish_metu_sabanci_val.conll`
 
+
+ps. When we run the train_hmm_tagger.py file, I keep the tagset type (cpostag or postag) in the file tag_order.txt. So, hmm_tagger.py and evaluate_hmm_tagger.py takes the tagset type from this file.
+
 _If you have any problems, please contact me from the e-mail address: **akintoksan@gmail.com**_
 
