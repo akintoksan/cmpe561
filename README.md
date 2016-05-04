@@ -1,3 +1,5 @@
+Python Version: 2.7.10
+
 # CMPE561 Project 1 - Authorship Recognition
 
 ##dataset_builder.py##
