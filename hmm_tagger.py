@@ -118,8 +118,3 @@ for i in range(0, len(unknown_words)):
 	file_likelihood.write(unknown_words[i] + " ");
 file_likelihood.close()
 
-
-
-
-
-
