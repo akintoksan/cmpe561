@@ -23,12 +23,12 @@ You can run the program as below:
 
 `python project1.py training_dir test_dir`
 
-_If you have any problems, please contact me from the e-mail address: **akintoksan@gmail.com**_
-
 
 # CMPE561 Project 2 - Hidden Markov Model (HMM) Tagger
 
 **Dependencies:** Did not include any other modules than "sys" and "os".
+
+**IMPORTANT:** When you are giving a file name as an argument, please give the full path of the file. I didn't implement any error handling there'. If you are sure that the file is in the same directory with the python file, you can use the name without the full path.
 
 ##train_hmm_tagger.py##
 train_hmm_tagger.py takes the “training file” and Part-of-Speech tagset (cpostag or postag) as arguments and trains the tagger.
@@ -65,5 +65,5 @@ Example:
 
 `python evaluate_hmm_tagger.py output.txt /Users/akintoksan/Desktop/cmpe_561_pr2/metu_sabanci_cmpe_561/metu_sabanci_cmpe_561/validation/turkish_metu_sabanci_val.conll`
 
-
+_If you have any problems, please contact me from the e-mail address: **akintoksan@gmail.com**_
 
