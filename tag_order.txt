@@ -1,0 +1,3 @@
+Adv Punc Noun Adj Verb Det Pron Postp Conj Ques Num Interj Dup Zero 
+Noun
+3
