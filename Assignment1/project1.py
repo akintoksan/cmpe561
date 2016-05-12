@@ -20,8 +20,10 @@ total = 0
 authors, prob_author, prob_doc_given_class, pdf_author = [], [], [], []
 meanAuthor, varianceAuthor = [], []
 meanNumWords, varianceNumWords = [], []
+meanNumCommas, varianceNumCommas = [], []
 word_given_class, lexicon, avg_word_length_doc, author_folder_length = {}, {}, {}, {}
 num_of_words_for_doc = {}
+num_of_comma = {}
 training_set = sys.argv[1]
 test_set = sys.argv[2]
 
@@ -89,11 +91,15 @@ def indexing(training_folder):
 			# keeps number of words for each class
 			num_of_words_for_doc[author] = []
 
+			# keeps number of commas for each class
+			num_of_comma[author] = []
+
 			for article in author_folder:
 				global total_doc_num_training
 				total_doc_num_training += 1
 				total_words = 0
 				total_length = 0
+				commas = 0
 				f = open(temp_str + "/" + article)
 				line = f.read()
 				tokens = line.split()
@@ -101,6 +107,8 @@ def indexing(training_folder):
 				# putting each new token in the lexicon, updating the list
 				# for the tokens that are already in the lexicon
 				for token in tokens: 
+					if token.endswith(","):
+						commas += 1
 					lower = tokenize(token)
 					if lower != "":
 						total_words += 1
@@ -114,6 +122,7 @@ def indexing(training_folder):
 						lexicon["Total Appearance"][authors.index(author)] += 1
 				f.close()
 				num_of_words_for_doc[author].append(total_words)
+				num_of_comma[author].append(commas)
 				avg_word_length_doc[author].append(float(total_length) / total_words)
 			
 			#calculating mean and variance for each author in terms of
@@ -126,6 +135,11 @@ def indexing(training_folder):
 			meanNumWords.append(numpy.mean(num_of_words_for_doc[author]))
 			varianceNumWords.append(numpy.var(num_of_words_for_doc[author]))
 
+			#calculating mean and variance for each author in terms of
+			# number of commas in documents
+			meanNumCommas.append(numpy.mean(num_of_comma[author]))
+			varianceNumCommas.append(numpy.var(num_of_comma[author]))
+
 	# calculating the class probabilities
 	for author in authors:
 		prob = float(author_folder_length[author])/float(total_doc_num_training)
@@ -133,7 +147,7 @@ def indexing(training_folder):
 
 # this method classifies the documents in the given test set
 def testing(test_folder):
-	print "List of documents and their guessed authors according to the Naive Bayes:"
+	#print "List of documents and their guessed authors according to the Naive Bayes:"
 	global count
 	for i in range(0,count):
 		prob_doc_given_class.append(0.0)
@@ -157,6 +171,7 @@ def testing(test_folder):
 			for article in author_folder:
 				total_words = 0
 				total_length = 0
+				commas = 0
 				global total_doc_num_training
 				total_doc_num_training += 1
 				for i in range(0,count):
@@ -169,6 +184,8 @@ def testing(test_folder):
 				prob_word_given_class = 0
 
 				for token in tokens:
+					if token.endswith(","):
+						commas += 1
 					lower = tokenize(token)
 					if lower != "":
 						total_words += 1
@@ -178,7 +195,7 @@ def testing(test_folder):
 								#calculating naive bayes with alpha = 0.025
 								dividend = (lexicon[lower][i]+0.025)
 								denominator = lexicon["Total Appearance"][i]+0.025*len(lexicon)
-								prob_word_given_class = float(log(float(dividend)/denominator))
+								prob_word_given_class = float(log10(float(dividend)/denominator))
 								prob_doc_given_class[i] += prob_word_given_class
 
 				avg_len = float(total_length) / total_words
@@ -188,7 +205,7 @@ def testing(test_folder):
 				tmp_mean = meanAuthor[authors.index(author)]				
 				tmp_var = varianceAuthor[authors.index(author)]
 				tmp_base = 1/sqrt(2*pi*tmp_var)
-				tmp_pow = -((avg_len-tmp_mean)**2)/(2*tmp_var)
+				tmp_pow = -float((avg_len-tmp_mean)**2)/(2*tmp_var)
 				prob_df = tmp_base*exp(tmp_pow)
 				
 				# calculating probability density function (pdf) 
@@ -196,28 +213,44 @@ def testing(test_folder):
 				tmp_mean2 = meanNumWords[authors.index(author)]
 				tmp_var2 = varianceNumWords[authors.index(author)]
 				tmp_base2 = 1/sqrt(2*pi*tmp_var2)
-				tmp_pow2 = -((total_words-tmp_mean2)**2)/(2*tmp_var2)
+				tmp_pow2 = -float((total_words-tmp_mean2)**2)/(2*tmp_var2)
 				prob_df2 = tmp_base2*exp(tmp_pow2)
+
+				# calculating probability density function (pdf) 
+				# for number of commas
+				tmp_mean3 = meanNumCommas[authors.index(author)]
+				tmp_var3 = varianceNumCommas[authors.index(author)]
+				tmp_base3 = 1/sqrt(2*pi*tmp_var3)
+				tmp_pow3 = -float((commas-tmp_mean3)**2)/(2*tmp_var3)
+				prob_df3 = tmp_base3*exp(tmp_pow3)
 				
 				# weighted overall probability for a document given class
 
 				#BoW + 2 Features
-				prob_doc_given_class[authors.index(author)] = 0.8*(prob_doc_given_class[authors.index(author)] + float(log(prob_author[authors.index(author)]))) + 0.1*(float(log(prob_df2))) + 0.1*(float(log(prob_df)))
+				#prob_doc_given_class[authors.index(author)] = 0.8*(prob_doc_given_class[authors.index(author)] + float(log(prob_author[authors.index(author)]))) + 0.1*(float(log(prob_df2))) + 0.1*(float(log(prob_df)))
 
 				#BoW Only
-				#prob_doc_given_class[authors.index(author)] = (prob_doc_given_class[authors.index(author)] + float(log(prob_author[authors.index(author)])))
+				#prob_doc_given_class[authors.index(author)] = (prob_doc_given_class[authors.index(author)] + float(log10(prob_author[authors.index(author)])))
 
 				# BoW + Average Word Length
-				#prob_doc_given_class[authors.index(author)] = 0.8*(prob_doc_given_class[authors.index(author)] + float(log(prob_author[authors.index(author)]))) + 0.2*(float(log(prob_df)))
+				#prob_doc_given_class[authors.index(author)] = (prob_doc_given_class[authors.index(author)] + float(log(prob_author[authors.index(author)]))) + (float(log(prob_df)))
+
+				# BoW + Num of Commas
+				# print str(prob_doc_given_class[authors.index(author)])
+				# print str(prob_doc_given_class[authors.index(author)] + float(log(prob_author[authors.index(author)])))
+				# print str(float(log(prob_df3)))
+				# print
+				prob_doc_given_class[authors.index(author)] = (prob_doc_given_class[authors.index(author)] + float(log(prob_author[authors.index(author)]))) + (float(log(prob_df))) + (float(log(prob_df2))) + (float(log(prob_df3))) 
+				# 
 
 				# BoW + Average Number of Word
-				#prob_doc_given_class[authors.index(author)] = 0.8*(prob_doc_given_class[authors.index(author)] + float(log(prob_author[authors.index(author)]))) + 0.2*(float(log(prob_df2)))
+				#prob_doc_given_class[authors.index(author)] = (prob_doc_given_class[authors.index(author)] + float(log10(prob_author[authors.index(author)]))) + (float(log10(prob_df2)))
 
 				f.close()
 
 				# guessing the author according the maximum probability
 				guessed_author = authors[prob_doc_given_class.index(max(prob_doc_given_class))]
-				print author + "/" + article  + " ---> " + guessed_author
+				#print author + "/" + article  + " ---> " + guessed_author
 				#print
 
 				if author == guessed_author:
@@ -242,9 +275,9 @@ def testing(test_folder):
 		fp = fp_list[authors.index(key)]
 		fn = cont_table_for_authors[key][1]
 		if (tp + fp) != 0:
-			macro_avg_precision = macro_avg_precision + (tp / (tp + fp))
+			macro_avg_precision = macro_avg_precision + (float(tp) / (tp + fp))
 
-		macro_avg_recall += tp / (tp + fn)
+		macro_avg_recall += float(tp) / (tp + fn)
 
 		total_tp += tp
 		total_fp += fp
